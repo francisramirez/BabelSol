@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "BabelSol.ETL", "BabelSol.ETL\BabelSol.ETL.dtproj", "{01AC3056-4104-40A3-A97D-F33DF429E64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelSol.Api", "BabelSol.Api\BabelSol.Api.csproj", "{9618334A-1657-40C7-9085-E716133FF00A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Debug|Any CPU.ActiveCfg = Development
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Debug|Any CPU.Build.0 = Development
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Development|Any CPU.ActiveCfg = Development
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Development|Any CPU.Build.0 = Development
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Release|Any CPU.ActiveCfg = Development
+		{01AC3056-4104-40A3-A97D-F33DF429E64E}.Release|Any CPU.Build.0 = Development
+		{9618334A-1657-40C7-9085-E716133FF00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9618334A-1657-40C7-9085-E716133FF00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9618334A-1657-40C7-9085-E716133FF00A}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{9618334A-1657-40C7-9085-E716133FF00A}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{9618334A-1657-40C7-9085-E716133FF00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9618334A-1657-40C7-9085-E716133FF00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7FBC282-14EF-4FEF-A9F9-10323C55006E}
+	EndGlobalSection
+EndGlobal
