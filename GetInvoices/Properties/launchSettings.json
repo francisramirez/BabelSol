@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GetInvoices": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7066",
+      "launchBrowser": false
+    }
+  }
+}

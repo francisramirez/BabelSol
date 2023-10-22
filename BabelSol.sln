@@ -5,7 +5,19 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "BabelSol.ETL", "BabelSol.ETL\BabelSol.ETL.dtproj", "{01AC3056-4104-40A3-A97D-F33DF429E64E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelSol.Api", "BabelSol.Api\BabelSol.Api.csproj", "{9618334A-1657-40C7-9085-E716133FF00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BabelSol.Api", "BabelSol.Api\BabelSol.Api.csproj", "{9618334A-1657-40C7-9085-E716133FF00A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetInvoices", "GetInvoices\GetInvoices.csproj", "{51B454D8-0D79-462B-BC02-F454575347BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{8C271DC5-A523-49BF-9D55-4DD5D33B2A77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL", "ETL", "{BCEE37C1-E938-45D7-BB83-F65CFAA7F94C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{A973E33B-7EE0-4EFB-8C7C-AB700A0F32DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{11723DB6-7045-4A12-B1F9-7DF896B6DE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelSol.Persistence", "BabelSol.Persistence\BabelSol.Persistence.csproj", "{49830850-8E14-4892-AEA2-9F6512830C53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +38,27 @@ Global
 		{9618334A-1657-40C7-9085-E716133FF00A}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{9618334A-1657-40C7-9085-E716133FF00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9618334A-1657-40C7-9085-E716133FF00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B454D8-0D79-462B-BC02-F454575347BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49830850-8E14-4892-AEA2-9F6512830C53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01AC3056-4104-40A3-A97D-F33DF429E64E} = {BCEE37C1-E938-45D7-BB83-F65CFAA7F94C}
+		{9618334A-1657-40C7-9085-E716133FF00A} = {8C271DC5-A523-49BF-9D55-4DD5D33B2A77}
+		{51B454D8-0D79-462B-BC02-F454575347BF} = {A973E33B-7EE0-4EFB-8C7C-AB700A0F32DD}
+		{49830850-8E14-4892-AEA2-9F6512830C53} = {11723DB6-7045-4A12-B1F9-7DF896B6DE82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7FBC282-14EF-4FEF-A9F9-10323C55006E}
