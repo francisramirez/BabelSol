@@ -33,8 +33,6 @@ namespace GetInvoices.Functions
 
             var result = await this.invoiceRepository.GetInvoices();
 
-            //var invoices = (List<Invoice>)result.Data;
-
             if (!result.Success)
             {
                 return new OkObjectResult(result);
