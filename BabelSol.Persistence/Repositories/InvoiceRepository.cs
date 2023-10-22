@@ -36,7 +36,7 @@ namespace BabelSol.Persistence.Repositories
             catch (Exception ex)
             {
                 result.Success = false;
-                result.Message = this.configuration["Error:GetInvoices"];
+                result.Message = this.configuration.GetSection("ErrorProcessInvoices").Value;
                 this.logger.LogError(result.Message, ex.ToString());
             }
             return result;
@@ -49,12 +49,12 @@ namespace BabelSol.Persistence.Repositories
             try
             {
                 await this.context.BulkInsertAsync(invoices);
-                result.Message = "Invoices procced";
+                result.Message = this.configuration.GetSection("InvoiceProcced").Value;
             }
             catch (Exception ex)
             {
                 result.Success = false;
-                result.Message = this.configuration["Error:ProcessInvoices"];
+                result.Message = this.configuration.GetSection("ErrorProcessInvoices").Value;
                 this.logger.LogError(result.Message, ex.ToString());
             }
 
